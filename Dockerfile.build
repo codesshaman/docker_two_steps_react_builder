@@ -1,0 +1,13 @@
+FROM node:16.17.1-alpine3.15
+
+WORKDIR /app
+
+COPY source .
+
+RUN yarn add @craco/craco yarn add craco-less && \
+    yarn build && cp -rf /app/build/* /home/node \
+    && chown -R node:node /home/node/*
+
+EXPOSE 999
+
+CMD ["yarn", "start"]

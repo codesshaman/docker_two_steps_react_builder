@@ -1,0 +1,390 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
+          * The buffer module from node.js, for the browser.
+          *
+          * @author   Feross Aboukhadijeh <http://feross.org>
+          * @license  MIT
+          */
+
+/*! ../../constants */
+
+/*! ../../helpers/_afterPluginsLoaded */
+
+/*! ../../helpers/_extractMeaningfulErrorMessage */
+
+/*! ../../helpers/_generateCadesFn */
+
+/*! ../../helpers/_parseCertInfo */
+
+/*! ../constants */
+
+/*! ../helpers/_afterPluginsLoaded */
+
+/*! ../helpers/_extractCommonName */
+
+/*! ../helpers/_extractMeaningfulErrorMessage */
+
+/*! ../helpers/_generateCadesFn */
+
+/*! ../helpers/_getCadesCert */
+
+/*! ../helpers/_getDateObj */
+
+/*! ../helpers/_isSupportedCSPVersion */
+
+/*! ../helpers/_isSupportedCadesVersion */
+
+/*! ../vendor/cadesplugin_api */
+
+/*! ./../../node_modules/buffer/index.js */
+
+/*! ./../webpack/buildin/global.js */
+
+/*! ./_afterPluginsLoaded */
+
+/*! ./_extractMeaningfulErrorMessage */
+
+/*! ./_generateCadesFn */
+
+/*! ./api */
+
+/*! ./cades-constants */
+
+/*! ./certificate */
+
+/*! ./createAttachedSignature */
+
+/*! ./createDetachedSignature */
+
+/*! ./createHash */
+
+/*! ./createSignature */
+
+/*! ./createXMLSignature */
+
+/*! ./execute */
+
+/*! ./exportBase64 */
+
+/*! ./getAlgorithm */
+
+/*! ./getCadesProp */
+
+/*! ./getCertificate */
+
+/*! ./getDecodedExtendedKeyUsage */
+
+/*! ./getExtendedKeyUsage */
+
+/*! ./getInfo */
+
+/*! ./getSystemInfo */
+
+/*! ./getUserCertificates */
+
+/*! ./hasExtendedKeyUsage */
+
+/*! ./isValid */
+
+/*! ./isValidSystemSetup */
+
+/*! ./issuer-tags-translations */
+
+/*! ./oids-dictionary */
+
+/*! ./subject-tags-translations */
+
+/*! base64-js */
+
+/*! ieee754 */
+
+/*! isarray */
+
+/*! no static exports found */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*!**********************!*\
+        !*** ./api/index.ts ***!
+        \**********************/
+
+/*!***********************!*\
+        !*** ./crypto-pro.ts ***!
+        \***********************/
+
+/*!************************!*\
+        !*** ./api/execute.ts ***!
+        \************************/
+
+/*!***************************!*\
+        !*** ./api/createHash.ts ***!
+        \***************************/
+
+/*!****************************!*\
+        !*** ./constants/index.ts ***!
+        \****************************/
+
+/*!******************************!*\
+        !*** ./api/getSystemInfo.ts ***!
+        \******************************/
+
+/*!*******************************!*\
+        !*** ./api/getCertificate.ts ***!
+        \*******************************/
+
+/*!********************************!*\
+        !*** ./api/createSignature.ts ***!
+        \********************************/
+
+/*!********************************!*\
+        !*** ./helpers/_getDateObj.ts ***!
+        \********************************/
+
+/*!**********************************!*\
+        !*** ./api/certificate/index.ts ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** ./helpers/_getCadesCert.ts ***!
+        \**********************************/
+
+/*!***********************************!*\
+        !*** ./api/createXMLSignature.ts ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** ./api/isValidSystemSetup.ts ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** ./helpers/_parseCertInfo.ts ***!
+        \***********************************/
+
+/*!***********************************!*\
+        !*** ./vendor/cadesplugin_api.js ***!
+        \***********************************/
+
+/*!************************************!*\
+        !*** ./api/certificate/getInfo.ts ***!
+        \************************************/
+
+/*!************************************!*\
+        !*** ./api/certificate/isValid.ts ***!
+        \************************************/
+
+/*!************************************!*\
+        !*** ./api/getUserCertificates.ts ***!
+        \************************************/
+
+/*!*************************************!*\
+        !*** ./helpers/_generateCadesFn.ts ***!
+        \*************************************/
+
+/*!**************************************!*\
+        !*** ./constants/cades-constants.ts ***!
+        \**************************************/
+
+/*!**************************************!*\
+        !*** ./constants/oids-dictionary.ts ***!
+        \**************************************/
+
+/*!***************************************!*\
+        !*** ../node_modules/buffer/index.js ***!
+        \***************************************/
+
+/*!***************************************!*\
+        !*** ./helpers/_extractCommonName.ts ***!
+        \***************************************/
+
+/*!****************************************!*\
+        !*** ../node_modules/ieee754/index.js ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ../node_modules/isarray/index.js ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./api/certificate/certificate.ts ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./api/createAttachedSignature.ts ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./api/createDetachedSignature.ts ***!
+        \****************************************/
+
+/*!****************************************!*\
+        !*** ./helpers/_afterPluginsLoaded.ts ***!
+        \****************************************/
+
+/*!*****************************************!*\
+        !*** ./api/certificate/exportBase64.ts ***!
+        \*****************************************/
+
+/*!*****************************************!*\
+        !*** ./api/certificate/getAlgorithm.ts ***!
+        \*****************************************/
+
+/*!*****************************************!*\
+        !*** ./api/certificate/getCadesProp.ts ***!
+        \*****************************************/
+
+/*!******************************************!*\
+        !*** ../node_modules/base64-js/index.js ***!
+        \******************************************/
+
+/*!*******************************************!*\
+        !*** ./helpers/_isSupportedCSPVersion.ts ***!
+        \*******************************************/
+
+/*!*********************************************!*\
+        !*** ./helpers/_isSupportedCadesVersion.ts ***!
+        \*********************************************/
+
+/*!***********************************************!*\
+        !*** ./constants/issuer-tags-translations.ts ***!
+        \***********************************************/
+
+/*!************************************************!*\
+        !*** ./api/certificate/getExtendedKeyUsage.ts ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./api/certificate/hasExtendedKeyUsage.ts ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./constants/subject-tags-translations.ts ***!
+        \************************************************/
+
+/*!*************************************************!*\
+        !*** ../node_modules/webpack/buildin/global.js ***!
+        \*************************************************/
+
+/*!***************************************************!*\
+        !*** ./helpers/_extractMeaningfulErrorMessage.ts ***!
+        \***************************************************/
+
+/*!*******************************************************!*\
+        !*** ./api/certificate/getDecodedExtendedKeyUsage.ts ***!
+        \*******************************************************/
+
+/**
+ * @license
+ * Lodash <https://lodash.com/>
+ * Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * use-sync-external-store-shim.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * use-sync-external-store-shim/with-selector.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * React Router DOM v6.3.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.3.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+//! moment.js

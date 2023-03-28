@@ -1,0 +1,15 @@
+version: "3"
+services:
+  nginx_react_server:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    healthcheck:
+      test: ["CMD-SHELL", "wget -O /dev/null http://127.0.0.1 || exit 1"]
+      timeout: 3s
+      interval: 5s
+      retries: 3
+    ports:
+      - $PORT:80
+    restart: unless-stopped
+    container_name: $PRODUCT

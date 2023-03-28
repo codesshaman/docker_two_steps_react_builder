@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ff1e4ae6.css",
+    "main.js": "/static/js/main.2e1f2a7a.js",
+    "static/js/787.44561a6b.chunk.js": "/static/js/787.44561a6b.chunk.js",
+    "static/media/Moscow-city.jpg": "/static/media/Moscow-city.b7c8b5fd033bca746695.jpg",
+    "static/media/Lato-SemiBold.woff": "/static/media/Lato-SemiBold.1931b1fb5bb285376d36.woff",
+    "static/media/Lato-Bold.woff": "/static/media/Lato-Bold.499d0e66b01f231a0dea.woff",
+    "static/media/Lato-SemiBold.woff2": "/static/media/Lato-SemiBold.09bebf39baf51ffa136f.woff2",
+    "static/media/Lato-Bold.woff2": "/static/media/Lato-Bold.2131d66bae125bc7f189.woff2",
+    "static/media/GolosUI-Regular.woff": "/static/media/GolosUI-Regular.ff21fc531e47133d3430.woff",
+    "static/media/Lato-Regular.woff": "/static/media/Lato-Regular.77ca2742388f408c3be7.woff",
+    "static/media/Lato-Regular.woff2": "/static/media/Lato-Regular.39ac38d8a27bed2a16e4.woff2",
+    "static/media/GolosUI-Regular.woff2": "/static/media/GolosUI-Regular.86c25c6bb57a5da0cb11.woff2",
+    "index.html": "/index.html",
+    "main.ff1e4ae6.css.map": "/static/css/main.ff1e4ae6.css.map",
+    "main.2e1f2a7a.js.map": "/static/js/main.2e1f2a7a.js.map",
+    "787.44561a6b.chunk.js.map": "/static/js/787.44561a6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff1e4ae6.css",
+    "static/js/main.2e1f2a7a.js"
+  ]
+}

@@ -1,0 +1,6 @@
+source_old
+logs.txt
+source
+build
+prod
+.env
